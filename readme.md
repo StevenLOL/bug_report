@@ -1,5 +1,7 @@
 #Bug in AdaBoostRegressor
 
+This bug is reported [here](https://github.com/scikit-learn/scikit-learn/issues/7408)
+
 Without set random_state AdaBoostRegressor give better result mean absolute error(MAE).
 
 #without random_state
